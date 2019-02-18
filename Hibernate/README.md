@@ -5,7 +5,7 @@
 - Java 8 o superiori
 - IDE (Intellij Idea o Eclipse)
 - [Database server (MySQL)](#database-server)
-- [JDBC driver per MySQL](jdbc-driver)
+- [JDBC driver per MySQL](#jdbc-driver)
 
 ### Hibernate
 
