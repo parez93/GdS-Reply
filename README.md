@@ -4,4 +4,4 @@
 
 
 Indice:
-- [Hibernate](https://github.com/parez93/GdS-Reply/)
+- [Hibernate](https://github.com/parez93/GdS-Reply/tree/master/Hibernate)
