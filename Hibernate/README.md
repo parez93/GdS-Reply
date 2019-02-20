@@ -28,14 +28,14 @@ Installazione per Windows:
 1. Avviare MySQLWorkbench
 2. Loggarsi
 3. Click sull'icona a forma di cartella
-4. Selezionare script sql
+4. Selezionare script sql [*01-create-user.sql*](https://github.com/parez93/GdS-Reply/tree/master/Hibernate/config/scripts/01-create-user.sql)
 5. Premere sull'icona a forma di fulmine.
 
 Nella workbench, creare una nuova connessione ed entrare nella connessione.
 
 1. File
 2. Open SQL script
-3. Selezionare script sql [*01-create-user.sql*](https://github.com/parez93/GdS-Reply/tree/master/Hibernate/config/scripts/01-create-user.sql)
+3. Selezionare script sql [*02-student-tracker.sql*](https://github.com/parez93/GdS-Reply/tree/master/Hibernate/config/scripts/02-student-tracker.sql)
 4. Click sull'icona a forma di fulmine
 
 Nella tab schemaSS fare click con il tasto destro e selezionare *refresh all* per vedere la tabella appena creata
