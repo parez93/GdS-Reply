@@ -7,6 +7,9 @@
 - [Database server (MySQL)](#database-server)
 - [JDBC driver per MySQL](#jdbc-driver)
 
+### Classe di test
+Nella cartella [TestConnection](https://github.com/parez93/GdS-Reply/tree/master/Hibernate/config/TestConnection) è possibile trovare un progetto già configurato con tutte le librerie necessarie importate in cui è presente una classe che verifica che le configurazioni siano state fatte correttamente.
+
 ### Hibernate
 
 Scaricare dal [sito di hibernate](https://hibernate.org/orm) l'ultima release.
