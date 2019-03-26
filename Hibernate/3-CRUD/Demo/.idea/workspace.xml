@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="946e6494-0de4-45be-99e2-fb8be0279e60" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/hibernate/demo/DeleteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/demo/ReadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hibernate/demo/UpdateDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2-Annotazioni/Demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2-Annotazioni/Demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2-Annotazioni/Demo/out/production/DemoHibernate/hibernate/demo/CreateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../2-Annotazioni/Demo/out/production/DemoHibernate/hibernate/demo/CreateDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2-Annotazioni/Demo/out/production/DemoHibernate/hibernate/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../2-Annotazioni/Demo/out/production/DemoHibernate/hibernate/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Soluzione esercizio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Soluzione esercizio/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,10 +39,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -103,7 +99,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551534366748" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552324757366" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -220,9 +216,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23959732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18337408" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -290,34 +286,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/demo/CreateDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/hibernate/demo/UpdateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="45" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="459">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate/demo/ReadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="25" column="40" lean-forward="true" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/demo/UpdateDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="29" selection-start-line="29" selection-end-line="37" selection-end-column="46" />
+        <state relative-caret-position="340">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate/demo/DeleteDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="289">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate/demo/CreateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="45" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
