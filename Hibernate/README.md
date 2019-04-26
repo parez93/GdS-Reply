@@ -42,12 +42,12 @@ Installazione per Windows:
     <img src="config/img_readme/server_mysql_img/install4.png" width="49%"/>
   </div>
   <div class="column">
-    <img src="config/img_readme/server_mysql_img/install2.png" width="50%"/>
-    <img src="config/img_readme/server_mysql_img/install5.png" width="50%"/>
+    <img src="config/img_readme/server_mysql_img/install2.png" width="49%"/>
+    <img src="config/img_readme/server_mysql_img/install5.png" width="49%"/>
   </div>
   <div class="column">
-    <img src="config/img_readme/server_mysql_img/install3.png" width="50%"/>
-    <img src="config/img_readme/server_mysql_img/install6.png" width="50%"/>
+    <img src="config/img_readme/server_mysql_img/install3.png" width="49%"/>
+    <img src="config/img_readme/server_mysql_img/install6.png" width="49%"/>
   </div>
 </div>
 
