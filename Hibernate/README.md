@@ -14,11 +14,19 @@ Nella cartella [TestConnection](https://github.com/parez93/GdS-Reply/tree/master
 
 Scaricare dal [sito di hibernate](https://hibernate.org/orm) l'ultima release.
 
+<img src="config/img_readme/lib_img/lib1.png" width="50%" height="50%" />
+<img src="config/img_readme/lib_img/lib2.png" width="50%" height="50%" />
+
+
 I jar da importare nel progetto java si trovano all'interno del percorso *lib/required/\*.jar*
 
 ### Database server
 
 Scaricare dal [sito MySQL Community Server](https://dev.mysql.com/downloads/mysql).
+
+<img src="config/img_readme/server_mysql_img/download1.png" width="50%" height="50%" />
+
+<img src="config/img_readme/server_mysql_img/download2.png" width="50%" height="50%" />
 
 Installazione per MacOs: vedi [qui](http://dev.mysql.com/doc/refman/5.7/en/osx-installation.html).
 
@@ -27,6 +35,21 @@ Installazione per Windows:
 - execute sul pacchetto mancante *MySQL Workbench*
 - mantenere i valori predefiniti per *Type and networking* e *Windows service*
 - root = *admin*, password = *admin*
+
+<div class="row">
+  <div class="column">
+    <img src="config/img_readme/server_mysql_img/install1.png" width="49%"/>
+    <img src="config/img_readme/server_mysql_img/install4.png" width="49%"/>
+  </div>
+  <div class="column">
+    <img src="config/img_readme/server_mysql_img/install2.png" width="49%"/>
+    <img src="config/img_readme/server_mysql_img/install5.png" width="49%"/>
+  </div>
+  <div class="column">
+    <img src="config/img_readme/server_mysql_img/install3.png" width="49%"/>
+    <img src="config/img_readme/server_mysql_img/install6.png" width="49%"/>
+  </div>
+</div>
 
 1. Avviare MySQLWorkbench
 2. Loggarsi
@@ -46,5 +69,9 @@ Nella tab schemaSS fare click con il tasto destro e selezionare *refresh all* pe
 ### JDBC driver
 
 Scaricare il driver per MySQL dal [sito](https://dev.mysql.com/downloads/connector/j).
+
+
+<img src="config/img_readme/connector_img/connector1.png" width="50%"/>
+<img src="config/img_readme/connector_img/connector2.png" width="50%"/>
 
 All'interno dello zip scaricato si trova il jar.
