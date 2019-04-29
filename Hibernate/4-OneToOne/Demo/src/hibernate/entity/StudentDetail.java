@@ -6,26 +6,29 @@ import java.io.Serializable;
 @Entity
 @Table(name = "student_detail")
 public class StudentDetail implements Serializable {
+    public StudentDetail() {
+    }
+
+    public StudentDetail(String channel, String hobby) {
+        this.channel = channel;
+        this.hobby = hobby;
+    }
 
     @Id
-    @Column(name = "email")
-    private String email_id;
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @Column(name = "id")
+    private int id;
 
-    @Column(name = "provider")
-    private String provider;
+    @Column(name = "youtube_channel")
+    private String channel;
 
+    @Column(name = "hobby")
+    private String hobby;
 
     @OneToOne(mappedBy = "studentDetail",
             cascade={CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
     private Student student;
 
-    public String getEmail_id() {
-        return email_id;
-    }
-
-    public void setEmail_id(String email_id) {
-        this.email_id = email_id;
-    }
 
     public Student getStudent() {
         return student;
@@ -35,36 +38,30 @@ public class StudentDetail implements Serializable {
         this.student = student;
     }
 
-    public StudentDetail() {
 
+    public String getChannel() {
+        return channel;
     }
 
-    public StudentDetail(String email, String provider) {
-        this.email_id = email;
-        this.provider = provider;
+    public void setChannel(String channel) {
+        this.channel = channel;
     }
 
-    public String getEmail() {
-        return email_id;
+    public String getHobby() {
+        return hobby;
     }
 
-    public void setEmail(String email) {
-        this.email_id = email;
-    }
-
-    public String getProvider() {
-        return provider;
-    }
-
-    public void setProvider(String provider) {
-        this.provider = provider;
+    public void setHobby(String hobby) {
+        this.hobby = hobby;
     }
 
     @Override
     public String toString() {
         return "StudentDetail{" +
-                "email='" + email_id + '\'' +
-                ", provider='" + provider + '\'' +
+                "id='" + id + '\'' +
+                ", channel='" + channel + '\'' +
+                ", hobby='" + hobby + '\'' +
+                ", student=" + student +
                 '}';
     }
 }

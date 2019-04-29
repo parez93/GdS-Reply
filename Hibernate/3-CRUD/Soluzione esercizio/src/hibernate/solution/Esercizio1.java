@@ -27,7 +27,7 @@ public class Esercizio1 {
         Session session4 = retrieveConnection(factory);
         deleteObj(1, session4);
     }finally {
-            factory.close();
+        factory.close();
     }
 
     }

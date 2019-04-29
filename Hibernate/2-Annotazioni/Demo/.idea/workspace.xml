@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="946e6494-0de4-45be-99e2-fb8be0279e60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DemoHibernate/hibernate/demo/CreateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoHibernate/hibernate/demo/CreateDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoHibernate/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoHibernate/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DemoHibernate/hibernate/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoHibernate/hibernate/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DemoHibernate/jdbc/TestConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DemoHibernate/jdbc/TestConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/demo/CreateDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/demo/CreateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/TestConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/TestConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3-CRUD/Demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3-CRUD/Demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3-CRUD/Soluzione esercizio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3-CRUD/Soluzione esercizio/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4-OneToOne/Demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../4-OneToOne/Demo/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,32 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/hibernate/demo/CreateDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="68" column="24" selection-start-line="68" selection-end-line="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,10 +37,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/jdbc/TestConnection.java" />
         <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/hibernate/demo/CreateDemo.java" />
+        <option value="$PROJECT_DIR$/src/jdbc/TestConnection.java" />
         <option value="$PROJECT_DIR$/src/hibernate/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/hibernate/demo/CreateDemo.java" />
       </list>
     </option>
   </component>
@@ -75,7 +58,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,42 +71,16 @@
               <item name="Demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DemoHibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DemoHibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DemoHibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DemoHibernate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551204651335" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556282622819" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../3-CRUD/Demo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -146,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestConnection">
+  <component name="RunManager" selected="Application.CreateDemo">
     <configuration name="CreateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hibernate.demo.CreateDemo" />
       <module name="DemoHibernate" />
@@ -175,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestConnection" />
         <item itemvalue="Application.CreateDemo" />
+        <item itemvalue="Application.TestConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -195,9 +152,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23959732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -206,7 +162,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3281075" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32719547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -226,17 +182,27 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="22" column="53" lean-forward="true" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/jdbc/TestConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="221">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="68">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
             <element signature="e#455#460#0" expanded="true" />
           </folding>
@@ -245,18 +211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate/demo/CreateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="68" column="24" selection-start-line="68" selection-end-line="69" />
+        <state relative-caret-position="111">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

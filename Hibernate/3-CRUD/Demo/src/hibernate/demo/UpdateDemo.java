@@ -37,6 +37,7 @@ public class UpdateDemo {
             studentList.forEach(System.out::println);
             session.getTransaction().commit();
         } finally {
+            session.close();
             factory.close();
         }
 

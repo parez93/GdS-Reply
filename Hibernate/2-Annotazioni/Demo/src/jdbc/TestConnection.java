@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class TestConnection {
 
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/student_tracker?useSSL=false&serverTimezone=UTC";
+        String url = "jdbc:mysql://localhost:3306/hb-one-to-one?useSSL=false&serverTimezone=UTC";
         String user = "admin";
         String psw = "admin";
 

@@ -24,10 +24,10 @@ public class Student {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "first_name")
+    @Column(name = "name")
     private String name;
 
-    @Column(name = "last_name")
+    @Column(name = "surname")
     private String surname;
 
     @Column(name = "email")

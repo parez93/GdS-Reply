@@ -22,6 +22,7 @@ public class CreateDemo {
             session.save(student);
             session.getTransaction().commit();
         } finally {
+            session.close();
             factory.close();
         }
 

@@ -7,13 +7,6 @@ import javax.persistence.*;
 @Table(name = "student")
 public class Student {
 
-//    public Student(String name, String surname, String email) {
-//        this.name = name;
-//        this.surname = surname;
-//        this.email = email;
-//    }
-
-
     public Student(String name, String surname, String email) {
         this.name = name;
         this.surname = surname;
@@ -27,22 +20,19 @@ public class Student {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "first_name")
+    @Column(name = "name")
     private String name;
 
-    @Column(name = "last_name")
+    @Column(name = "surname")
     private String surname;
 
-/*    @Column(name = "email")
-    private String email;*/
+    @Column(name = "email")
+    private String email;
 
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "email")
+    @JoinColumn(name = "student_detail_id")
     private StudentDetail studentDetail;
 
-    public void setStudentDetail(StudentDetail studentDetail) {
-        this.studentDetail = studentDetail;
-    }
 
     public int getId() {
         return id;
@@ -68,12 +58,21 @@ public class Student {
         this.surname = surname;
     }
 
+    public String getEmail() {
+        return email;
+    }
 
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setStudentDetail(StudentDetail studentDetail) {
+        this.studentDetail = studentDetail;
+    }
 
     public StudentDetail getStudentDetail() {
         return studentDetail;
     }
-
 
     @Override
     public String toString() {
@@ -81,7 +80,8 @@ public class Student {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
-
+                ", email='" + email + '\'' +
+                ", studentDetail=" + studentDetail +
                 '}';
     }
 }

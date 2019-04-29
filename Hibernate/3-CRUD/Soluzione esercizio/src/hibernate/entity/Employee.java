@@ -21,13 +21,13 @@ public class Employee {
     @Column(name = "id")
     private int id;
 
-    @Column(name = "nome")
+    @Column(name = "name")
     private String name;
 
-    @Column(name = "cognome")
+    @Column(name = "surname")
     private String surname;
 
-    @Column(name = "azienda")
+    @Column(name = "company")
     private String company;
 
     public int getId() {

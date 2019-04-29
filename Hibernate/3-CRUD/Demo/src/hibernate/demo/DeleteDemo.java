@@ -40,6 +40,7 @@ public class DeleteDemo {
             studentList2.forEach(System.out::println);
             session.getTransaction().commit();
         } finally {
+            session.close();
             factory.close();
         }
 
